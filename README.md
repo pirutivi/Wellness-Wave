@@ -9,7 +9,7 @@ Welcome to **WellnessWave**, a web-based platform designed to help users track t
 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript
-- **Styling**: CSS Framework )
+- **Styling**: CSS Framework 
 
 
 
