@@ -4,7 +4,7 @@ Welcome to **WellnessWave**, a web-based platform designed to help users track t
 
 ## Features
 - **Home Page**: Overview of the WellnessWave platform with key features and navigation.
-- **Nutrition Page**: Allows users to track their daily nutrition intake.
+- **Nutrition Page**: Allows users to know about nutritions.
 - **Feedback Page**: Enables users to submit feedback to improve the platform.
 
 ## Tech Stack
