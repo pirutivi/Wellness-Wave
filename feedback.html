@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+  <h1>Feedback of our WellnessWave members</h1>
+  <form id="feedbackForm" action="https://formspree.io/f/mqkvagae" method="POST">
+    <ol>
+      <li>
+        <label>1.Please rate the level of your knowledge by reading our page "WellnessWave".</label>
+        <div class="rating">
+          <input type="radio" name="knowledge" value="1"> 1
+          <input type="radio" name="knowledge" value="2"> 2
+          <input type="radio" name="knowledge" value="3"> 3
+          <input type="radio" name="knowledge" value="4"> 4
+          <input type="radio" name="knowledge" value="5"> 5
+        </div>
+      </li>
+      <li>
+        <label>2.Which content is more expressive in our page?</label>
+        <textarea name="expressive"></textarea>
+      </li>
+      <li>
+        <label>3.Is there anything you didn't get that you expected?</label>
+        <textarea name="expectation"></textarea>
+      </li>
+      <li>
+        <label>4.Do you have any bad healthy habits to change?</label>
+        <textarea name="opinion"></textarea>
+      </li>
+      <li>
+        <label>5. How would you rate the performance of our website?</label>
+        <input type="range" name="performance" min="1" max="10">
+      </li>
+      <li>
+        <label>6. Were you able to find any content you were looking for easily?</label>
+        <select name="find-info">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="partially">Partially</option>
+        </select>
+      </li>
+      <li>
+        <label>7. Did you find any inconvenience in our website?</label>
+        <select name="inconvenience">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="partially">Partially</option>
+        </select>
+      </li>
+      <li>
+        <label>8.How would you rate the quality of our content?</label>
+        <input type="range" name="content" min="1" max="10">
+      </li>
+      <li>
+        <label>9.How can we improve your experience with our website?</label>
+        <textarea name="improvement"></textarea>
+      </li>
+      <li>
+        <label>10. Would you recommend our website to others? If yes, what aspects would you highlight?</label>
+        <textarea name="recommendation"></textarea>
+      </li>
+      <li>
+        <label>11. Overall, how satisfied are you with your experience using our website?</label>
+        <input type="range" name="satisfaction" min="1" max="10">
+      </li>
+      <li>
+        <label>12.Do you have any other feedback you would like to share?</label>
+        <textarea name="comments"></textarea>
+      </li>
+      <li>
+        <label>13. Your Name<span class="required">*</span></label>
+        <input type="text" name="name" required>
+      </li>
+      <li>
+        <label>14.Your Email<span class="required">*</span></label>
+        <input type="email" name="email" required>
+      </li>
+    </ol>
+    <button type="submit">Submit</button>
+  </form>
+  <div id="ThankyouMessage" class="hidden">
+    <h2>Thank you for your time,attention and feedback!</h2>
+    <p>We appreciate your valuable time.</p>
+  </div>
+  <script src="feedback.js"></script>
+</body>
+</html>
+

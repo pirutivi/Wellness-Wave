@@ -1,0 +1,60 @@
+
+html, body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    background-color: grey;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #999;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+iframe {
+  width: 100%; 
+  height: 315px; 
+  max-width: 560px; 
+  margin: 0 auto; 
+  display: block;
+}
